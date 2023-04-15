@@ -1,1 +1,3 @@
 reflector --protocol https --verbose --latest 25 --sort rate --save /etc/pacman.d/mirrorlist
+
+yay -Syyu
