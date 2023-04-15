@@ -18,3 +18,7 @@ sudo pacman -R notification-daemon
 
 # NM-APPLET - Use nm-tui instead!
 sudo mv /usr/bin/nm-applet ~/
+
+# remove some EOS tools and apps
+sudo pacman -R eos-log-tool
+sudo pacman -R eos-update-notifier
