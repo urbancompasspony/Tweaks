@@ -12,3 +12,5 @@ sudo systemctl disable --now firewalld
 LVM
 sudo systemctl disable lvm2-monitor
 sudo systemctl disable lvm2-lvmpolld
+
+sudo pacman -R notification-daemon
