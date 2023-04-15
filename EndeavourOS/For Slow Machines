@@ -9,8 +9,12 @@ Remove shortcuts inside:
 Disable Firewall:
 sudo systemctl disable --now firewalld
 
-LVM
+LVM not needed:
 sudo systemctl disable lvm2-monitor
 sudo systemctl disable lvm2-lvmpolld
 
+# Get rid of notifications at all
 sudo pacman -R notification-daemon
+
+# NM-APPLET - Use nm-tui instead!
+sudo mv /usr/bin/nm-applet ~/
