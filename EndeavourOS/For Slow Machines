@@ -1,0 +1,14 @@
+
+Remove shortcuts inside:
+
+/etc/xdg/autostart/at-spi-dbus-bus.desktop
+/etc/xdg/autostart/firewall-applet.desktop
+/etc/xdg/autostart/welcome.desktop
+/etc/xdg/autostart/eos-updatep-notifier.desktop
+
+Disable Firewall:
+sudo systemctl disable --now firewalld
+
+LVM
+sudo systemctl disable lvm2-monitor
+sudo systemctl disable lvm2-lvmpolld
