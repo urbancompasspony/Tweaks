@@ -22,3 +22,10 @@ sudo mv /usr/bin/nm-applet ~/
 # remove some EOS tools and apps
 sudo pacman -R eos-log-tool
 sudo pacman -R eos-update-notifier
+
+# On LXDE start terminal Only
+sudo systemctl disable lxdm
+# To Enter Xorg + LXDE:
+sudo systemctl start lxdm
+# To Exit:
+sudo systemctl stop lxdm
